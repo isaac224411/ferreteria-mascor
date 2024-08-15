@@ -1,0 +1,33 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #f7aa46; /* Azul claro */
+}
+
+header {
+    background-color: #171a19; /* Verde oscuro */
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff; /* Blanco */
+}
+
+main section {
+    border-bottom: 1px solid #ffc400;
+    padding-bottom: 2rem;
+}
+
+main section:last-of-type {
+    border-bottom: none;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #ffc402; /* Verde oscuro */
+    margin-top: 3rem;
+    color: #fff; /* Blanco */
+}
