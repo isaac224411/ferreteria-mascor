@@ -16,16 +16,9 @@
             <a href="#products" class="text-white mx-2">Productos y Servicios</a>
             <a href="#contact" class="text-white mx-2">Contacto</a>
             <a href="#values" class="text-white mx-2">Valores, Misión y Visión</a>
+            <a href="#canje-cupones">Canje de Cupones</a>
+            <a href="productos-temporada.html">Productos de Temporada</a>
         </nav><a href="#organizational-chart" class="text-white mx-2">Organigrama</a>
-        <a href="#leadership-style" class="text-white mx-2">Tipo de Liderazgo</a>
-        <a href="#motivation" class="text-white mx-2">Motivación</a>
-        <a href="#conflict-resolution" class="text-white mx-2">Resolución de Conflictos</a>
-        <a href="#high-performance-teams" class="text-white mx-2">Equipos de Alto Rendimiento</a>
-        <a href="#decision-making" class="text-white mx-2">Toma de Decisiones</a>
-        <a href="#group-classification" class="text-white mx-2">Clasificación de los Grupos</a>
-        <a href="#interpersonal-relationships" class="text-white mx-2">Relaciones Interpersonales</a>
-        <a href="#products" class="text-white mx-2">Productos y Servicios</a>
-        <a href="#contact" class="text-white mx-2">Contacto</a>
     </header>
     <main class="container my-5">
         <section id="about" class="my-5">
@@ -57,15 +50,21 @@
             <img src="img/organigrama.png" class="img-fluid" alt="Organigrama de MASCOR">
             <p>El organigrama de MASCOR muestra la estructura de nuestra empresa, destacando los diferentes departamentos y funciones clave que aseguran el funcionamiento eficiente de nuestro negocio.</p>
         </section>
-        
-        <!-- Nueva sección de tipo de liderazgo -->
-        <section id="leadership-style" class="my-5">
-            <h2>Tipo de Liderazgo</h2>
-            <p>En MASCOR, promovemos un estilo de liderazgo colaborativo y orientado a resultados. Creemos en la importancia de inspirar y motivar a nuestro equipo para alcanzar metas comunes, fomentando un ambiente de trabajo inclusivo y respetuoso.</p>
+        <section id="vacante-repartidor" class="vacante-section">
+            <h2>Vacante: Repartidor</h2>
+            <p>Estamos buscando un repartidor responsable y comprometido para unirse a nuestro equipo en MASCOR. Si tienes experiencia en reparto y conoces bien la ciudad, ¡te invitamos a postularte!</p>
+            <ul>
+                <li>Horario: Lunes a Sábado, 8:00 AM - 6:00 PM</li>
+                <li>Requisitos: Licencia de conducir vigente, experiencia previa, conocimiento de la ciudad</li>
+                <li>Ofrecemos: Salario competitivo, beneficios, excelente ambiente de trabajo</li>
+            </ul>
+            <a href="https://www.google.com.mx" class="btn btn-primary" target="_blank">Postúlate Ahora</a>
         </section>
+        
         <section id="products" class="my-5">
             <h2>Productos y Servicios</h2>
             <p>Ofrecemos una amplia gama de productos y servicios, incluyendo herramientas, materiales de construcción, productos de plomería y mucho más.</p>
+            <a href="productos.html" class="btn btn-primary">Ver Productos</a>
             <div class="row">
                 <div class="col-md-4">
                     <img src="img/product1.png" class="img-fluid" alt="Producto 1">
@@ -89,41 +88,15 @@
                 <h4>Nuevas herramientas y brocas para carpinteria</h4>
             </div>
             </video>
-        <!-- Sección de Motivación -->
-<section id="motivation" class="my-5">
-    <h2>Motivación</h2>
-    <p>La motivación es un factor clave para el éxito de cualquier organización. En MASCOR, creemos en la importancia de mantener a nuestro equipo motivado a través del reconocimiento, incentivos y oportunidades de desarrollo profesional.</p>
-</section>
-
-<!-- Sección de Resolución de Conflictos -->
-<section id="conflict-resolution" class="my-5">
-    <h2>Resolución de Conflictos</h2>
-    <p>La resolución efectiva de conflictos es esencial para mantener un ambiente de trabajo saludable. Fomentamos la comunicación abierta y respetuosa para abordar y resolver cualquier desacuerdo dentro de la organización.</p>
-</section>
-
-<!-- Sección de Equipos de Alto Rendimiento -->
-<section id="high-performance-teams" class="my-5">
-    <h2>Equipos de Alto Rendimiento</h2>
-    <p>Nuestro enfoque en el desarrollo de equipos de alto rendimiento se basa en la colaboración, la confianza y la alineación de objetivos comunes. Esto nos permite alcanzar resultados excepcionales y superar las expectativas de nuestros clientes.</p>
-</section>
-
-<!-- Sección de Toma de Decisiones -->
-<section id="decision-making" class="my-5">
-    <h2>Toma de Decisiones</h2>
-    <p>La toma de decisiones en MASCOR se basa en un análisis riguroso y una evaluación cuidadosa de todas las opciones. Promovemos la participación del equipo en el proceso de toma de decisiones para asegurar que se consideren diversas perspectivas.</p>
-</section>
-
-<!-- Sección de Clasificación de los Grupos -->
-<section id="group-classification" class="my-5">
-    <h2>Clasificación de los Grupos</h2>
-    <p>Entendemos la diferencia entre un grupo y un equipo de trabajo. Mientras que los grupos pueden trabajar de manera más independiente, nuestros equipos están diseñados para colaborar estrechamente y alcanzar metas compartidas con mayor eficiencia.</p>
-</section>
-
-<!-- Sección de Relaciones Interpersonales y Desarrollo de Equipos -->
-<section id="interpersonal-relationships" class="my-5">
-    <h2>Relaciones Interpersonales y Desarrollo de Equipos</h2>
-    <p>En MASCOR, valoramos las relaciones interpersonales positivas y fomentamos el desarrollo de equipos a través de la formación continua, actividades de team building y un ambiente de trabajo inclusivo y respetuoso.</p>
-</section>
+            <section id="canje-cupones" class="cupones-section">
+                <h2>Canjea tus Cupones de Descuento</h2>
+                <p>Introduce el código de tu cupón para recibir un descuento exclusivo en tu próxima compra en línea.</p>
+                <form action="/canjear-cupon" method="POST" class="cupon-form">
+                    <input type="text" name="codigo-cupon" placeholder="Ingresa tu código de cupón" required>
+                    <button type="submit" class="btn btn-primary">Canjear</button>
+                </form>
+            </section>
+            
         </section>
         <section id="contact" class="my-5">
             <h2>Contacto</h2>
@@ -149,6 +122,12 @@
             <a href="#" class="text-dark mx-2">Facebook</a>
             <a href="#" class="text-dark mx-2">Instagram</a>
             <a href="#" class="text-dark mx-2">Twitter</a>
+            <section id="encuesta-satisfaccion" class="encuesta-section">
+                <h2>Encuesta de Satisfacción</h2>
+                <p>Tu opinión es muy importante para nosotros. Por favor, dedica unos minutos para completar nuestra encuesta de satisfacción.</p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfz05PYFKYug_Lfht9dtqnOdcUCGP4fCpzVUydfGf09QaCF4A/viewform" target="_blank" class="btn btn-primary">Participar en la Encuesta</a>
+            </section>
+            
         </section>
     </main>
     <footer class="bg-dark text-white text-center py-3">
